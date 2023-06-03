@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa Bootstrap</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-2">
+        <div class="row">
+            <div class="col">
+                <h1>Tarefa Bootstrap</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="/imgs/img01.jpg">
+                    <div class="carousel-caption">
+                        <h2>Cancún</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="/imgs/img02.jpg">
+                    <div class="carousel-caption">
+                        <h2>Grécia</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="/imgs/img03.jpg">
+                    <div class="carousel-caption">
+                        <h2>Egito</h2>
+                    </div>
+                </div>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>                  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        PACOTES DE VIAJEM
+                    </div>
+                    <img src="./imgs/img01.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Pacote Cancún</h3>
+                        <h5 class="card-subtitle">R$ 25.000,00</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <a href="#" class="btn btn-success">ADICIONAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        PACOTES DE VIAJEM
+                    </div>
+                    <img src="./imgs/img02.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Pacote Grécia</h3>
+                        <h5 class="card-subtitle">R$ 35.000,00</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <a href="#" class="btn btn-success">ADICIONAR</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        PACOTES DE VIAJEM
+                    </div>
+                    <img src="./imgs/img03.jpg">
+                    <div class="card-body">
+                        <h3 class="card-title">Pacote Egito</h3>
+                        <h5 class="card-subtitle">R$ 45.000,00</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <a href="#" class="btn btn-success">ADICIONAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
